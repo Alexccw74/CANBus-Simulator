@@ -19,4 +19,12 @@ public static class J1939Id
              | ((pgn & 0x3FFFF) << 8)
              | sourceAddress;
     }
+
+    /// <summary>Inverse of <see cref="Build"/>: extracts priority, PGN, and source address from a 29-bit CAN ID.</summary>
+    public static void Decode(uint canId, out byte priority, out uint pgn, out byte sourceAddress)
+    {
+        priority = (byte)((canId >> 26) & 0x7);
+        pgn = (canId >> 8) & 0x3FFFF;
+        sourceAddress = (byte)(canId & 0xFF);
+    }
 }
