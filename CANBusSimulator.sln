@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{99254D81-798B-4D82-970C-11BBB69CA7AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CANBusSimulator.Core", "src\CANBusSimulator.Core\CANBusSimulator.Core.csproj", "{4E02BDE0-556A-4DF6-8226-12FAC71BE7C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{34B81933-6227-421E-9936-BEAC997FC1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CANBusSimulator.Core.Tests", "tests\CANBusSimulator.Core.Tests\CANBusSimulator.Core.Tests.csproj", "{A0272577-2E78-4ED6-B4B2-DF6C1370E814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CANBusSimulator.App", "src\CANBusSimulator.App\CANBusSimulator.App.csproj", "{7C6A4B0B-7B4F-4E0A-9C6C-4C6E9E8B6A31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E02BDE0-556A-4DF6-8226-12FAC71BE7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E02BDE0-556A-4DF6-8226-12FAC71BE7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E02BDE0-556A-4DF6-8226-12FAC71BE7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E02BDE0-556A-4DF6-8226-12FAC71BE7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0272577-2E78-4ED6-B4B2-DF6C1370E814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0272577-2E78-4ED6-B4B2-DF6C1370E814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0272577-2E78-4ED6-B4B2-DF6C1370E814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0272577-2E78-4ED6-B4B2-DF6C1370E814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C6A4B0B-7B4F-4E0A-9C6C-4C6E9E8B6A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6A4B0B-7B4F-4E0A-9C6C-4C6E9E8B6A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6A4B0B-7B4F-4E0A-9C6C-4C6E9E8B6A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6A4B0B-7B4F-4E0A-9C6C-4C6E9E8B6A31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E02BDE0-556A-4DF6-8226-12FAC71BE7C2} = {99254D81-798B-4D82-970C-11BBB69CA7AF}
+		{A0272577-2E78-4ED6-B4B2-DF6C1370E814} = {34B81933-6227-421E-9936-BEAC997FC1E9}
+		{7C6A4B0B-7B4F-4E0A-9C6C-4C6E9E8B6A31} = {99254D81-798B-4D82-970C-11BBB69CA7AF}
+	EndGlobalSection
+EndGlobal
